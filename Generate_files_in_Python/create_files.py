@@ -80,7 +80,13 @@ def database_generator():
     database.to_csv(r'/home/pawel/Pulpit/Programowanie/Python/Clinical Data Project/main_database.csv')
 
     return subject, country, site, pi_assessment, pi_crit, pi_crit_num, cm_assessment, cm_desciption, rand_date, database
+
 database_generator()
+
+
+# If you want to use a randomly generated database
+database = pd.read_csv (r'/home/pawel/Pulpit/Programowanie/Python/Clinical Data Project/data.csv')
+
 
 def creating_files(filename, columns=[], col_names = []):
     data = []
@@ -99,4 +105,3 @@ creating_files('assessment_of_pi', ['subject', 'pi_assessment'], ['subject', 'pi
 creating_files('criteria_of_pi', ['subject', 'pi_crit', 'pi_crit_num'], ['subject', 'pi_crit', 'pi_crit_num'])
 creating_files('assessment_of_cm', ['subject', 'cm_assessment', 'cm_desciption'], ['subject', 'cm_assessment', 'cm_desciption'])
 
-database = pd.read_csv (r'/home/pawel/Pulpit/Programowanie/Python/Clinical Data Project/data.csv')
