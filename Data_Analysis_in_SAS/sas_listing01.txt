@@ -1,0 +1,1260 @@
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0350008         country01               500  Eligible                                           Eligible       
+  E0950066                                      Eligible                                           Eligible       
+  E0350137                                 501  Eligible                          Inclusion        Eligible       
+  E0950312                                 503  Eligible                                           Eligible       
+  E1050408                                 504  Eligible         Exclusion                         Ineligible     
+  E0550520                                 505  Eligible                                           Eligible       
+  E0550665                                 506  Eligible                                           Eligible       
+  E1050624                                      Eligible                          Exclusion        Ineligible     
+  E0650759                                 507  Ineligible                                         Ineligible     
+  E0151083                                 510  Eligible                                           Eligible       
+  E0951024                                      Eligible                                           Eligible       
+  E0651158                                 511  Eligible                                           Eligible       
+  E0351171                                      Eligible         Exclusion                         Ineligible     
+  E0651431                                 514  Eligible                          Exclusion        Ineligible     
+  E0951554                                 515  Eligible                                           Eligible       
+  E0651597                                                                                         Ineligible     
+  E0851692                                 516  Eligible                                           Eligible       
+  E0451770                                 517  Ineligible                                         Ineligible     
+  E0751822                                 518  Eligible                                           Eligible       
+  E0452257                                 522  Eligible                                           Eligible       
+  E0152215                                      Ineligible                                         Ineligible     
+  E1052323                                 523  Eligible                                           Eligible       
+  E0452499                                 524  Eligible                                           Eligible       
+  E1052432                                      Eligible                                           Eligible       
+  E0152502                                 525  Eligible                                           Eligible       
+  E0252619                                 526  Eligible                          Exclusion        Ineligible     
+  E0152719                                 527  Eligible                                           Eligible       
+  E0152761                                      Eligible                                           Eligible       
+  E0652786                                      Eligible                                           Eligible       
+  E0752736                                      Eligible                                           Eligible       
+  E0152867                                 528  Eligible                                           Eligible       
+  E0552823                                      Eligible                                           Eligible       
+  E0652872                                      Eligible                                           Eligible       
+  E0552816                                      Ineligible                        Inclusion        Ineligible     
+  E0353062                                 530  Eligible                                           Eligible       
+  E0553071                                      Eligible                                           Eligible       
+  E0453493                                 534  Eligible                                           Eligible       
+  E0653443                                      Eligible                          Exclusion        Ineligible     
+  E0253567                                 535  Eligible         Exclusion                         Ineligible     
+  E0653838                                 538  Eligible                                           Eligible       
+  E0253888                                      Eligible                          Exclusion        Ineligible     
+  E0553938                                 539  Eligible                                           Eligible       
+  E0953985                                      Eligible                                           Eligible       
+  E0254058                                 540  Eligible                                           Eligible       
+  E0454073                                      Eligible                                           Eligible       
+  E0554057                                      Eligible                                           Eligible       
+  E0754020                                      Eligible                                           Eligible       
+  E0154053                                      Ineligible                                         Ineligible     
+  E0254389                                 543  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0554543         country01               545  Eligible                                           Eligible       
+  E0454632                                 546  Ineligible                                         Ineligible     
+  E0554777                                 547  Eligible                                           Eligible       
+  E0154830                                 548  Eligible                                           Eligible       
+  E0754816                                      Ineligible                                         Ineligible     
+  E0654908                                 549  Eligible                                           Eligible       
+  E0455214                                 552  Eligible                                           Eligible       
+  E0955205                                      Eligible                                           Eligible       
+  E0155390                                 553  Eligible                                           Eligible       
+  E0255533                                 555  Eligible                                           Eligible       
+  E0955822                                 558  Ineligible                                         Ineligible     
+  E0656017                                 560  Eligible                                           Eligible       
+  E0856145                                 561  Eligible                                           Eligible       
+  E0756279                                 562  Eligible                                           Eligible       
+  E0556480                                 564  Eligible                                           Eligible       
+  E0956538                                 565  Eligible                                           Eligible       
+  E0856823                                 568  Eligible                                           Eligible       
+  E0156823                                      Ineligible                                         Ineligible     
+  E0456936                                 569  Eligible                                           Eligible       
+  E0157354                                 573  Eligible                                           Eligible       
+  E0157353                                      Eligible                          Exclusion        Ineligible     
+  E0457357                                      Eligible                          Exclusion        Ineligible     
+  E0357511                                 575                                                     Ineligible     
+  E0857585                                      Eligible         Exclusion                         Ineligible     
+  E0157742                                 577  Eligible                                           Eligible       
+  E0957769                                      Eligible                                           Eligible       
+  E0257840                                 578  Eligible                                           Eligible       
+  E0157814                                      Ineligible                                         Ineligible     
+  E0157960                                 579  Eligible                                           Eligible       
+  E0757959                                      Eligible                                           Eligible       
+  E0258009                                 580  Eligible                                           Eligible       
+  E0458062                                      Eligible                                           Eligible       
+  E0658039                                      Eligible                                           Eligible       
+  E0158075                                      Ineligible                                         Ineligible     
+  E0858110                                 581  Eligible                                           Eligible       
+  E0958118                                      Eligible                                           Eligible       
+  E0158260                                 582  Eligible                                           Eligible       
+  E0358298                                      Eligible                                           Eligible       
+  E1058266                                      Eligible                                           Eligible       
+  E0158247                                      Ineligible                                         Ineligible     
+  E0258355                                 583  Eligible                                           Eligible       
+  E0358333                                      Eligible                                           Eligible       
+  E0958307                                      Eligible                                           Eligible       
+  E0858482                                 584  Eligible                                           Eligible       
+  E0159084                                 590  Eligible                                           Eligible       
+  E0959082                                      Eligible                                           Eligible       
+  E0759442                                 594  Eligible         Exclusion                         Ineligible     
+  E0559565                                 595  Eligible                                           Eligible       
+  E0759589                                      Eligible                          Inclusion        Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0759552         country01               595  Eligible         Exclusion                         Ineligible     
+  E0359631                                 596  Eligible                                           Eligible       
+  E1059681                                      Eligible                                           Eligible       
+                                                                                                                  
+  E1050228         country02               502  Eligible                                           Eligible       
+  E0250295                                      Ineligible                                         Ineligible     
+  E0150395                                 503  Eligible                                           Eligible       
+  E0250300                                      Eligible                                           Eligible       
+  E0450562                                 505  Eligible                                           Eligible       
+  E0850967                                 509  Eligible                                           Eligible       
+  E0850974                                      Eligible                          Exclusion        Ineligible     
+  E0251063                                 510  Eligible                                           Eligible       
+  E0351024                                      Eligible                          Exclusion        Ineligible     
+  E0551252                                 512  Eligible                                           Eligible       
+  E0751554                                 515  Eligible                                           Eligible       
+  E0751890                                 518  Eligible                          Exclusion        Ineligible     
+  E0951835                                      Ineligible                                         Ineligible     
+  E0552335                                 523  Eligible                                           Eligible       
+  E1052377                                      Eligible                                           Eligible       
+  E0452374                                      Eligible         Exclusion        Inclusion        Ineligible     
+  E0252529                                 525  Eligible                                           Eligible       
+  E0452565                                      Eligible                                           Eligible       
+  E0952662                                 526  Eligible                                           Eligible       
+  E0152794                                 527  Eligible                                           Eligible       
+  E0453045                                 530  Eligible                                           Eligible       
+  E0653282                                 532  Ineligible                                         Ineligible     
+  E0853379                                 533  Eligible                                           Eligible       
+  E0653540                                 535  Eligible                                           Eligible       
+  E0153870                                 538  Eligible                                           Eligible       
+  E0153812                                      Eligible                          Exclusion        Ineligible     
+  E0154004                                 540  Eligible                                           Eligible       
+  E0754013                                      Eligible                                           Eligible       
+  E0654380                                 543  Eligible                                           Eligible       
+  E0554320                                      Eligible         Exclusion                         Ineligible     
+  E0654529                                 545  Eligible                                           Eligible       
+  E0854609                                 546  Eligible                                           Eligible       
+  E0254776                                 547  Eligible                                           Eligible       
+  E0554719                                      Eligible                                           Eligible       
+  E1054896                                 548  Eligible                                           Eligible       
+  E0755195                                 551  Eligible                                           Eligible       
+  E0555296                                 552  Eligible                                           Eligible       
+  E0355336                                 553  Eligible                                           Eligible       
+  E0755333                                      Eligible                                           Eligible       
+  E0255439                                 554  Eligible                                           Eligible       
+  E0255489                                      Eligible                                           Eligible       
+  E0955467                                      Eligible                                           Eligible       
+  E0455413                                      Ineligible                                         Ineligible     
+  E0855429                                      Ineligible                                         Ineligible     
+  E0455579                                 555  Eligible                          Inclusion        Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0855500         country02               555  Eligible                          Inclusion        Eligible       
+  E0555620                                 556  Eligible                                           Eligible       
+  E0555739                                 557  Eligible                                           Eligible       
+  E0955706                                      Eligible                                           Eligible       
+  E0456077                                 560  Eligible                                           Eligible       
+  E0556052                                      Eligible                                           Eligible       
+  E0156095                                      Ineligible                        Exclusion        Ineligible     
+  E0256321                                 563  Eligible                                           Eligible       
+  E0456478                                 564  Eligible                                           Eligible       
+  E0256539                                 565  Eligible         Exclusion                         Ineligible     
+  E0756785                                 567  Eligible                                           Eligible       
+  E0357145                                 571  Eligible                                           Eligible       
+  E0157334                                 573  Eligible                                           Eligible       
+  E0757363                                      Eligible         Exclusion                         Ineligible     
+  E0757734                                 577  Eligible                                           Eligible       
+  E0757771                                                                                         Ineligible     
+  E0457818                                 578  Eligible                                           Eligible       
+  E0858032                                 580  Eligible                                           Eligible       
+  E0158015                                      Ineligible                                         Ineligible     
+  E0958125                                 581  Eligible                                           Eligible       
+  E0158264                                 582  Eligible                                           Eligible       
+  E1058366                                 583  Ineligible                                         Ineligible     
+  E0658460                                 584  Eligible                                           Eligible       
+  E0258568                                 585  Eligible                                           Eligible       
+  E0258688                                 586  Eligible                                           Eligible       
+  E0958625                                      Eligible                                           Eligible       
+  E0258614                                      Ineligible                                         Ineligible     
+  E0458762                                 587  Eligible                                           Eligible       
+  E0358924                                 589  Eligible                                           Eligible       
+  E0359128                                 591  Eligible                                           Eligible       
+  E0659232                                 592  Ineligible                                         Ineligible     
+  E0259318                                 593  Ineligible                                         Ineligible     
+  E0959448                                 594  Eligible                          Exclusion        Ineligible     
+  E0259873                                 598  Eligible                                           Eligible       
+  E0259805                                      Ineligible                                         Ineligible     
+  E1059856                                      Eligible         Exclusion                         Ineligible     
+                                                                                                                  
+  E0350059         country03               500  Eligible                                           Eligible       
+  E0450091                                      Ineligible                                         Ineligible     
+  E0550014                                      Eligible         Exclusion                         Ineligible     
+  E0550191                                 501  Eligible                                           Eligible       
+  E0650154                                      Eligible                                           Eligible       
+  E0350218                                 502  Eligible                                           Eligible       
+  E0550292                                      Ineligible                                         Ineligible     
+  E0250368                                 503  Eligible                                           Eligible       
+  E0350569                                 505  Eligible                                           Eligible       
+  E0450578                                      Eligible                                           Eligible       
+  E0150556                                      Ineligible                                         Ineligible     
+  E0150697                                 506  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0550722         country03               507  Eligible                                           Eligible       
+  E0550726                                      Eligible                                           Eligible       
+  E1050761                                      Eligible                                           Eligible       
+  E0450836                                 508  Eligible                                           Eligible       
+  E0550993                                 509  Eligible                                           Eligible       
+  E0551023                                 510  Eligible                                           Eligible       
+  E0751092                                      Eligible                                           Eligible       
+  E0151194                                 511  Eligible                                           Eligible       
+  E0851154                                      Eligible                                           Eligible       
+  E0251284                                 512  Eligible                                           Eligible       
+  E1051498                                 514  Eligible                                           Eligible       
+  E0651605                                 516  Eligible                                           Eligible       
+  E0851657                                      Eligible                                           Eligible       
+  E0151601                                      Eligible                          Exclusion        Ineligible     
+  E0351862                                 518  Eligible                                           Eligible       
+  E0351956                                 519  Eligible                                           Eligible       
+  E0751910                                      Eligible                                           Eligible       
+  E0951987                                      Eligible                                           Eligible       
+  E0352018                                 520  Eligible                                           Eligible       
+  E0752072                                      Eligible                                           Eligible       
+  E0652142                                 521  Eligible                                           Eligible       
+  E0852206                                 522  Eligible                                           Eligible       
+  E0452456                                 524  Eligible                                           Eligible       
+  E0552493                                      Eligible                                           Eligible       
+  E0152469                                      Eligible         Exclusion                         Ineligible     
+  E0452588                                 525  Eligible                                           Eligible       
+  E0952564                                      Eligible                                           Eligible       
+  E0152678                                 526  Eligible                                           Eligible       
+  E0752814                                 528  Eligible                                           Eligible       
+  E0752982                                 529  Eligible                                           Eligible       
+  E0353083                                 530  Eligible                                           Eligible       
+  E0753060                                      Eligible                                           Eligible       
+  E0353301                                 533  Eligible                                           Eligible       
+  E0953353                                      Eligible                                           Eligible       
+  E0453551                                 535  Eligible                                           Eligible       
+  E0453575                                      Eligible                                           Eligible       
+  E0453774                                 537  Eligible                          Inclusion        Eligible       
+  E1053921                                 539  Eligible         Exclusion                         Ineligible     
+  E0354065                                 540  Eligible                                           Eligible       
+  E0354050                                      Ineligible                                         Ineligible     
+  E0354145                                 541  Eligible         Inclusion                         Eligible       
+  E1054179                                      Eligible                                           Eligible       
+  E0554277                                 542  Eligible                                           Eligible       
+  E0654287                                      Eligible                                           Eligible       
+  E0254601                                 546  Eligible                                           Eligible       
+  E0455040                                 550  Eligible                                           Eligible       
+  E0355213                                 552  Eligible                                           Eligible       
+  E0955204                                      Eligible                                           Eligible       
+  E0255317                                 553  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E1055307         country03               553  Eligible                                           Eligible       
+  E0255453                                 554  Eligible                                           Eligible       
+  E0555522                                 555  Eligible                                           Eligible       
+  E0855629                                 556  Ineligible                                         Ineligible     
+  E0555779                                 557  Eligible                                           Eligible       
+  E0956061                                 560  Eligible                                           Eligible       
+  E0556165                                 561  Eligible                                           Eligible       
+  E0356106                                      Eligible                          Exclusion        Ineligible     
+  E0856281                                 562  Eligible                                           Eligible       
+  E0956380                                 563  Eligible                                           Eligible       
+  E0856426                                 564  Eligible                                           Eligible       
+  E0856572                                 565  Eligible                                           Eligible       
+  E0456635                                 566  Eligible                                           Eligible       
+  E0356655                                      Ineligible                                         Ineligible     
+  E0956710                                 567  Eligible                                           Eligible       
+  E0456942                                 569  Eligible                                           Eligible       
+  E0556920                                      Eligible                                           Eligible       
+  E0357062                                 570  Eligible                                           Eligible       
+  E0357063                                      Eligible                          Inclusion        Eligible       
+  E0457096                                      Eligible                                           Eligible       
+  E0657105                                 571  Eligible                                           Eligible       
+  E0257308                                 573  Eligible                                           Eligible       
+  E0457543                                 575  Eligible                                           Eligible       
+  E0357636                                 576  Eligible                                           Eligible       
+  E0357646                                      Ineligible                        Exclusion        Ineligible     
+  E0657702                                 577  Ineligible                                         Ineligible     
+  E0157963                                 579  Eligible                                           Eligible       
+  E0357912                                      Eligible                                           Eligible       
+  E0358001                                 580  Eligible                                           Eligible       
+  E0858004                                      Eligible                                           Eligible       
+  E0558183                                 581  Eligible                                           Eligible       
+  E0958129                                      Eligible                                           Eligible       
+  E0358289                                 582  Eligible                                           Eligible       
+  E0658231                                      Eligible                                           Eligible       
+  E0458396                                 583  Eligible                          Exclusion        Ineligible     
+  E0758507                                 585  Eligible                                           Eligible       
+  E0858678                                 586  Eligible                                           Eligible       
+  E1058882                                 588  Eligible                                           Eligible       
+  E0858914                                 589  Eligible                                           Eligible       
+  E0659191                                 591  Eligible                                           Eligible       
+  E0759311                                 593  Eligible                                           Eligible       
+  E0159625                                 596  Eligible                                           Eligible       
+  E0159604                                      Eligible                          Exclusion        Ineligible     
+  E1059618                                      Eligible                          Exclusion        Ineligible     
+  E0359782                                 597  Eligible                                           Eligible       
+  E0459733                                      Eligible                                           Eligible       
+                                                                                                                  
+  E0350039         country04               500  Eligible                                           Eligible       
+  E0350140                                 501  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0450148         country04               501  Eligible                                           Eligible       
+  E0550456                                 504  Eligible                                           Eligible       
+  E0350517                                 505  Eligible                                           Eligible       
+  E0450590                                      Eligible                                           Eligible       
+  E0350557                                      Ineligible                                         Ineligible     
+  E0450523                                      Eligible         Exclusion                         Ineligible     
+  E0450617                                 506  Eligible                                           Eligible       
+  E1050621                                      Eligible                                           Eligible       
+  E0450633                                      Ineligible                                         Ineligible     
+  E0350895                                 508  Eligible                                           Eligible       
+  E0450858                                      Eligible                                           Eligible       
+  E0250990                                 509  Eligible                                           Eligible       
+  E0151192                                 511  Eligible                                           Eligible       
+  E0751142                                      Eligible                                           Eligible       
+  E0651235                                 512  Eligible                                           Eligible       
+  E0451348                                 513  Eligible                                           Eligible       
+  E0951320                                      Eligible                                           Eligible       
+  E0951355                                      Eligible                                           Eligible       
+  E0951515                                 515  Eligible                                           Eligible       
+  E0151587                                      Ineligible                                         Ineligible     
+  E0651617                                 516  Eligible                                           Eligible       
+  E0451790                                 517  Eligible                                           Eligible       
+  E0651712                                      Eligible                                           Eligible       
+  E0651774                                      Eligible         Exclusion        Exclusion        Ineligible     
+  E1051880                                 518  Eligible                                           Eligible       
+  E0452198                                 521  Eligible                                           Eligible       
+  E0752130                                      Eligible                                           Eligible       
+  E0552236                                 522  Eligible                                           Eligible       
+  E0852251                                      Eligible                                           Eligible       
+  E0752303                                 523  Eligible                                           Eligible       
+  E0152424                                 524  Eligible                                           Eligible       
+  E0352488                                      Eligible                                           Eligible       
+  E0352461                                      Ineligible                                         Ineligible     
+  E0352570                                 525  Eligible                                           Eligible       
+  E1052589                                      Eligible                                           Eligible       
+  E0152799                                 527  Eligible                                           Eligible       
+  E0653007                                 530  Eligible                                           Eligible       
+  E0853232                                 532  Eligible                                           Eligible       
+  E0153465                                 534  Eligible                                           Eligible       
+  E0553496                                      Eligible                                           Eligible       
+  E0153552                                 535  Eligible                                           Eligible       
+  E0353566                                      Eligible                                           Eligible       
+  E0653578                                      Eligible                                           Eligible       
+  E0353738                                 537  Eligible                                           Eligible       
+  E0653836                                 538  Eligible                                           Eligible       
+  E1053880                                      Eligible                                           Eligible       
+  E0253895                                      Eligible                          Exclusion        Ineligible     
+  E0154022                                 540  Eligible                                           Eligible       
+  E0654316                                 543  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0854616         country04               546  Eligible                                           Eligible       
+  E0754610                                      Ineligible                                         Ineligible     
+  E0154815                                 548  Eligible         Exclusion                         Ineligible     
+  E0154956                                 549  Eligible                                           Eligible       
+  E0454935                                      Eligible                                           Eligible       
+  E0455095                                 550  Eligible                                           Eligible       
+  E0955020                                      Eligible                                           Eligible       
+  E0155269                                 552  Eligible                                           Eligible       
+  E0255291                                      Eligible                                           Eligible       
+  E0455256                                      Eligible                                           Eligible       
+  E0655213                                      Eligible                                           Eligible       
+  E0455284                                      Ineligible                                         Ineligible     
+  E0255458                                 554  Eligible                                           Eligible       
+  E0355437                                      Eligible                                           Eligible       
+  E0155568                                 555  Eligible                                           Eligible       
+  E1055599                                      Eligible                                           Eligible       
+  E0255671                                 556  Eligible                                           Eligible       
+  E0755743                                 557  Eligible                                           Eligible       
+  E0855768                                      Eligible                                           Eligible       
+  E0155883                                 558  Eligible                                           Eligible       
+  E0455882                                      Eligible                                           Eligible       
+  E0455899                                      Eligible                                           Eligible       
+  E0855960                                 559  Eligible         Exclusion        Exclusion        Ineligible     
+  E0356041                                 560  Eligible                                           Eligible       
+  E0156178                                 561  Eligible                                           Eligible       
+  E0356165                                      Eligible         Inclusion                         Eligible       
+  E0756104                                      Eligible                                           Eligible       
+  E0356277                                 562  Eligible                                           Eligible       
+  E0656461                                 564  Eligible                                           Eligible       
+  E0956612                                 566  Eligible                                           Eligible       
+  E1056686                                      Eligible                                           Eligible       
+  E0256755                                 567  Ineligible                                         Ineligible     
+  E0956915                                 569  Eligible                                           Eligible       
+  E0556977                                      Eligible                          Exclusion        Ineligible     
+  E0956986                                      Eligible                          Exclusion        Ineligible     
+  E0857022                                 570  Eligible                                           Eligible       
+  E0957098                                      Eligible                                           Eligible       
+  E0457279                                 572  Eligible                                           Eligible       
+  E0557295                                      Eligible                                           Eligible       
+  E0757204                                      Eligible                                           Eligible       
+  E0757378                                 573  Eligible                                           Eligible       
+  E0357305                                                                                         Ineligible     
+  E0457537                                 575  Eligible                                           Eligible       
+  E0457575                                      Eligible                                           Eligible       
+  E0657537                                      Eligible                                           Eligible       
+  E0857689                                 576  Ineligible                        Exclusion        Ineligible     
+  E0357743                                 577  Eligible                                           Eligible       
+  E0557843                                 578  Eligible                                           Eligible       
+  E0357919                                 579  Eligible                          Exclusion        Ineligible     
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0258026         country04               580  Eligible                                           Eligible       
+  E0758083                                      Eligible                                           Eligible       
+  E1058233                                 582  Eligible                          Inclusion        Eligible       
+  E0158350                                 583  Eligible                                           Eligible       
+  E0758727                                 587  Eligible                                           Eligible       
+  E0958767                                      Ineligible                                         Ineligible     
+  E1058825                                 588  Eligible                                           Eligible       
+  E0659080                                 590  Eligible                                           Eligible       
+  E0759054                                      Eligible                                           Eligible       
+  E0159522                                 595  Eligible                                           Eligible       
+  E0359737                                 597  Eligible                                           Eligible       
+                                                                                                                  
+  E0650005         country05               500  Eligible                                           Eligible       
+  E0750163                                 501  Eligible                                           Eligible       
+  E0350266                                 502  Eligible                                           Eligible       
+  E1050401                                 504  Eligible                                           Eligible       
+  E1050480                                      Eligible                                           Eligible       
+  E0250576                                 505  Eligible                                           Eligible       
+  E0550503                                      Eligible         Exclusion                         Ineligible     
+  E0750632                                 506  Eligible         Inclusion                         Eligible       
+  E0750637                                      Eligible                                           Eligible       
+  E0150707                                 507  Eligible                                           Eligible       
+  E0350703                                      Eligible                                           Eligible       
+  E0750974                                 509  Eligible                                           Eligible       
+  E1050934                                      Eligible                                           Eligible       
+  E0551030                                 510  Eligible                          Inclusion        Eligible       
+  E0851021                                      Eligible                                           Eligible       
+  E0851073                                      Eligible                                           Eligible       
+  E0451229                                 512                                                     Ineligible     
+  E0451773                                 517  Eligible                                           Eligible       
+  E0551736                                      Eligible                                           Eligible       
+  E0551793                                      Eligible                                           Eligible       
+  E0751782                                      Eligible         Exclusion                         Ineligible     
+  E0851859                                 518  Eligible                                           Eligible       
+  E0852040                                 520  Eligible                                           Eligible       
+  E1052241                                 522  Eligible                                           Eligible       
+  E0752375                                 523  Eligible                                           Eligible       
+  E0552415                                 524  Eligible                                           Eligible       
+  E0752453                                      Eligible                                           Eligible       
+  E0852701                                 527  Eligible                                           Eligible       
+  E0352822                                 528  Eligible                                           Eligible       
+  E0752857                                      Eligible                          Exclusion        Ineligible     
+  E0753008                                 530  Eligible                                           Eligible       
+  E0953064                                      Eligible                                           Eligible       
+  E0553023                                      Eligible                          Exclusion        Ineligible     
+  E0453219                                 532  Eligible                                           Eligible       
+  E0353338                                 533  Eligible                                           Eligible       
+  E0653467                                 534  Eligible                                           Eligible       
+  E0353552                                 535  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0753598         country05               535  Eligible                                           Eligible       
+  E0853695                                 536  Ineligible                                         Ineligible     
+  E0453885                                 538  Eligible                                           Eligible       
+  E0153905                                 539  Eligible                                           Eligible       
+  E0154087                                 540  Eligible                                           Eligible       
+  E1054067                                      Eligible                                           Eligible       
+  E0954225                                 542  Eligible                                           Eligible       
+  E0454399                                 543  Eligible                          Inclusion        Eligible       
+  E0554367                                      Eligible                                           Eligible       
+  E1054375                                      Eligible                                           Eligible       
+  E0654406                                 544  Eligible                                           Eligible       
+  E1054569                                 545  Ineligible                                         Ineligible     
+  E0554679                                 546  Eligible                                           Eligible       
+  E0154601                                      Ineligible                                         Ineligible     
+  E0654648                                      Eligible                          Exclusion        Ineligible     
+  E0254793                                 547  Eligible                                           Eligible       
+  E0754722                                      Eligible                                           Eligible       
+  E0254867                                 548  Eligible                                           Eligible       
+  E0855138                                 551  Ineligible                                         Ineligible     
+  E0155267                                 552  Eligible                                           Eligible       
+  E0455253                                      Eligible                                           Eligible       
+  E0255508                                 555  Eligible                                           Eligible       
+  E0355599                                      Eligible                                           Eligible       
+  E0955562                                      Eligible                                           Eligible       
+  E0655680                                 556  Eligible                                           Eligible       
+  E0355767                                 557  Eligible                                           Eligible       
+  E0455772                                      Eligible                                           Eligible       
+  E0555766                                      Eligible                                           Eligible       
+  E0555787                                      Eligible                                           Eligible       
+  E0755774                                      Eligible                                           Eligible       
+  E0455960                                 559  Eligible                          Inclusion        Eligible       
+  E0555932                                      Eligible                                           Eligible       
+  E0256098                                 560  Eligible                                           Eligible       
+  E0756196                                 561  Eligible                                           Eligible       
+  E0756243                                 562  Eligible                                           Eligible       
+  E0356322                                 563  Eligible                                           Eligible       
+  E0556359                                      Eligible                                           Eligible       
+  E0856315                                      Eligible                                           Eligible       
+  E0956350                                      Ineligible       Exclusion                         Ineligible     
+  E0156473                                 564  Eligible                                           Eligible       
+  E0556476                                      Eligible                                           Eligible       
+  E0556538                                 565  Eligible                                           Eligible       
+  E0556596                                      Eligible                                           Eligible       
+  E0356593                                      Eligible                          Exclusion        Ineligible     
+  E0656545                                      Ineligible                                         Ineligible     
+  E0656945                                 569  Eligible                                           Eligible       
+  E0356981                                      Ineligible                                         Ineligible     
+  E0857284                                 572  Ineligible                                         Ineligible     
+  E0757818                                 578  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0957849         country05               578  Ineligible                                         Ineligible     
+  E0158119                                 581  Eligible                                           Eligible       
+  E0358133                                      Eligible                                           Eligible       
+  E0558195                                      Eligible                          Exclusion        Ineligible     
+  E0158357                                 583  Eligible                                           Eligible       
+  E0758645                                 586  Eligible                                           Eligible       
+  E0758789                                 587  Eligible         Exclusion                         Ineligible     
+  E0658825                                 588  Eligible                                           Eligible       
+  E0959232                                 592  Eligible                                           Eligible       
+  E0859256                                      Ineligible                                         Ineligible     
+  E0859352                                 593  Ineligible                                         Ineligible     
+  E0759560                                 595  Eligible                                           Eligible       
+  E0959503                                      Eligible                                           Eligible       
+  E0359617                                 596  Eligible                                           Eligible       
+  E0659735                                 597  Eligible                                           Eligible       
+                                                                                                                  
+  E0150031         country06               500  Eligible                                           Eligible       
+  E0950101                                 501  Eligible                                           Eligible       
+  E0850276                                 502  Eligible                                           Eligible       
+  E0350304                                 503  Eligible                                           Eligible       
+  E0150431                                 504  Eligible                                           Eligible       
+  E0850626                                 506  Eligible                                           Eligible       
+  E0350711                                 507  Eligible                                           Eligible       
+  E0451120                                 511  Eligible                                           Eligible       
+  E0851179                                      Eligible                                           Eligible       
+  E0351297                                 512  Eligible                          Exclusion        Ineligible     
+  E0451368                                 513  Eligible                                           Eligible       
+  E0851318                                      Eligible                                           Eligible       
+  E0351448                                 514  Eligible                                           Eligible       
+  E0851426                                      Eligible                                           Eligible       
+  E0451516                                 515  Eligible                                           Eligible       
+  E0351667                                 516  Eligible                                           Eligible       
+  E0451688                                      Eligible                          Inclusion        Eligible       
+  E0751692                                                       Exclusion                         Ineligible     
+  E0651713                                 517  Eligible                                           Eligible       
+  E0551732                                      Ineligible                                         Ineligible     
+  E1051729                                      Eligible         Exclusion                         Ineligible     
+  E0651954                                 519  Eligible                                           Eligible       
+  E0351929                                      Ineligible                                         Ineligible     
+  E0652165                                 521  Eligible                                           Eligible       
+  E1052129                                      Eligible                                           Eligible       
+  E0352219                                 522  Ineligible                        Inclusion        Ineligible     
+  E0352473                                 524  Eligible                                           Eligible       
+  E0952569                                 525  Eligible                                           Eligible       
+  E0352606                                 526  Eligible                                           Eligible       
+  E0752798                                 527  Eligible                                           Eligible       
+  E0152862                                 528  Eligible                                           Eligible       
+  E0152898                                      Eligible                                           Eligible       
+  E0652804                                      Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0652998         country06               529  Eligible                          Inclusion        Eligible       
+  E1052946                                      Eligible                                           Eligible       
+  E0153074                                 530  Eligible                                           Eligible       
+  E0553049                                      Ineligible                                         Ineligible     
+  E0853162                                 531  Eligible                                           Eligible       
+  E1053281                                 532  Eligible                                           Eligible       
+  E0753236                                      Eligible                          Exclusion        Ineligible     
+  E0453426                                 534  Eligible                                           Eligible       
+  E0653488                                      Eligible                                           Eligible       
+  E0753497                                      Eligible                                           Eligible       
+  E1053535                                 535  Eligible         Inclusion                         Eligible       
+  E0553589                                      Eligible                          Exclusion        Ineligible     
+  E0953721                                 537  Eligible                          Exclusion        Ineligible     
+  E0453840                                 538  Eligible                                           Eligible       
+  E0553856                                      Eligible                                           Eligible       
+  E0353964                                 539  Eligible                                           Eligible       
+  E0653966                                      Eligible                                           Eligible       
+  E0654161                                 541  Eligible                                           Eligible       
+  E0754164                                      Eligible         Inclusion                         Eligible       
+  E0954211                                 542  Eligible                                           Eligible       
+  E0254373                                 543  Eligible                                           Eligible       
+  E0654348                                      Eligible                                           Eligible       
+  E0654394                                      Eligible                                           Eligible       
+  E0754372                                      Eligible                                           Eligible       
+  E1054336                                      Eligible                                           Eligible       
+  E0554428                                 544  Eligible                                           Eligible       
+  E0654402                                      Eligible                                           Eligible       
+  E0754516                                 545  Eligible                                           Eligible       
+  E0354655                                 546  Eligible                                           Eligible       
+  E0554649                                      Eligible                                           Eligible       
+  E0654738                                 547  Eligible                                           Eligible       
+  E0954959                                 549  Eligible                                           Eligible       
+  E0355040                                 550  Eligible                                           Eligible       
+  E0255124                                 551  Eligible                                           Eligible       
+  E0755126                                      Ineligible                                         Ineligible     
+  E0855294                                 552  Eligible                                           Eligible       
+  E0955529                                 555  Eligible                                           Eligible       
+  E0355660                                 556  Eligible                                           Eligible       
+  E0656010                                 560  Ineligible                                         Ineligible     
+  E0856004                                      Ineligible                                         Ineligible     
+  E0156292                                 562  Eligible                                           Eligible       
+  E0556346                                 563  Eligible                          Exclusion        Ineligible     
+  E0356404                                 564  Eligible                                           Eligible       
+  E0856502                                 565  Eligible                                           Eligible       
+  E0156553                                      Eligible                          Exclusion        Ineligible     
+  E0956865                                 568  Ineligible                                         Ineligible     
+  E0756957                                 569  Eligible                                           Eligible       
+  E0657043                                 570  Eligible                                           Eligible       
+  E0257180                                 571  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0957106         country06               571  Eligible                                           Eligible       
+  E0457261                                 572  Eligible                                           Eligible       
+  E0157554                                 575  Eligible         Exclusion                         Ineligible     
+  E0157770                                 577  Eligible                          Exclusion        Ineligible     
+  E0158002                                 580  Eligible                                           Eligible       
+  E0158227                                 582  Eligible                                           Eligible       
+  E0758353                                 583  Eligible                                           Eligible       
+  E0758435                                 584  Eligible                                           Eligible       
+  E0658585                                 585  Eligible                                           Eligible       
+  E0758582                                      Eligible                                           Eligible       
+  E0558797                                 587  Eligible                                           Eligible       
+  E0458895                                 588  Eligible                                           Eligible       
+  E0558895                                      Eligible                                           Eligible       
+  E0958806                                      Eligible                                           Eligible       
+  E0159051                                 590  Eligible                                           Eligible       
+  E0659055                                      Eligible                                           Eligible       
+  E0659083                                      Eligible                                           Eligible       
+  E0859045                                      Ineligible                                         Ineligible     
+  E0259149                                 591  Eligible                                           Eligible       
+  E0659141                                      Eligible                                           Eligible       
+  E0959128                                      Ineligible                                         Ineligible     
+  E0559274                                 592  Ineligible                                         Ineligible     
+  E0259402                                 594  Eligible                                           Eligible       
+  E0159501                                 595  Eligible                                           Eligible       
+  E0559722                                 597  Eligible                                           Eligible       
+                                                                                                                  
+  E0750072         country07               500  Eligible                                           Eligible       
+  E0750141                                 501  Eligible                                           Eligible       
+  E0850144                                      Eligible                                           Eligible       
+  E1050117                                      Eligible                                           Eligible       
+  E0650482                                 504  Eligible                                           Eligible       
+  E0350641                                 506  Eligible                                           Eligible       
+  E0650684                                      Eligible                                           Eligible       
+  E0350906                                 509  Eligible                                           Eligible       
+  E0550968                                      Eligible                          Inclusion        Eligible       
+  E0450999                                      Ineligible                                         Ineligible     
+  E0151006                                 510  Eligible                                           Eligible       
+  E0551062                                      Eligible                                           Eligible       
+  E0351172                                 511  Eligible                                           Eligible       
+  E0951458                                 514  Eligible                                           Eligible       
+  E0451576                                 515  Eligible                                           Eligible       
+  E0651639                                 516  Eligible                                           Eligible       
+  E0551791                                 517  Eligible                                           Eligible       
+  E0451838                                 518  Ineligible       Exclusion                         Ineligible     
+  E0551811                                      Eligible                          Exclusion        Ineligible     
+  E0351939                                 519  Eligible                                           Eligible       
+  E0552024                                 520  Ineligible                                         Ineligible     
+  E0352117                                 521  Ineligible                        Exclusion        Ineligible     
+  E0652210                                 522  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0152247         country07               522  Eligible                          Exclusion        Ineligible     
+  E0252378                                 523  Eligible                                           Eligible       
+  E0252379                                      Eligible                                           Eligible       
+  E0652459                                 524  Eligible                                           Eligible       
+  E0752728                                 527  Eligible                                           Eligible       
+  E0952733                                      Eligible                                           Eligible       
+  E1052777                                      Eligible                                           Eligible       
+  E0152850                                 528  Eligible                                           Eligible       
+  E0652861                                      Eligible                          Inclusion        Eligible       
+  E0852968                                 529  Eligible                                           Eligible       
+  E0653003                                 530  Eligible                                           Eligible       
+  E1053000                                      Eligible                                           Eligible       
+  E1053021                                      Eligible                                           Eligible       
+  E0753148                                 531  Eligible                                           Eligible       
+  E0253212                                 532  Eligible                                           Eligible       
+  E0753219                                      Eligible                                           Eligible       
+  E0953301                                 533  Eligible                                           Eligible       
+  E0153416                                 534  Eligible                                           Eligible       
+  E0453553                                 535  Eligible                          Exclusion        Ineligible     
+  E0753935                                 539  Eligible                                           Eligible       
+  E0754031                                 540  Eligible                                           Eligible       
+  E0854017                                      Eligible                                           Eligible       
+  E1054057                                      Eligible                                           Eligible       
+  E0154084                                      Eligible                          Exclusion        Ineligible     
+  E0354193                                 541  Eligible                                           Eligible       
+  E1054257                                 542  Eligible                                           Eligible       
+  E0154320                                 543  Ineligible                                         Ineligible     
+  E1054486                                 544  Eligible                                           Eligible       
+  E0754598                                 545  Eligible                                           Eligible       
+  E1054557                                      Eligible                                           Eligible       
+  E0454620                                 546  Eligible                                           Eligible       
+  E0754691                                      Ineligible                                         Ineligible     
+  E0954709                                 547  Eligible                                           Eligible       
+  E0454834                                 548  Ineligible                                         Ineligible     
+  E0754921                                 549  Eligible                                           Eligible       
+  E0555113                                 551  Eligible                                           Eligible       
+  E0655104                                      Eligible                                           Eligible       
+  E1055355                                 553  Eligible                                           Eligible       
+  E0255737                                 557  Eligible                                           Eligible       
+  E0255747                                      Eligible                                           Eligible       
+  E1056076                                 560  Eligible                                           Eligible       
+  E0456180                                 561  Eligible                                           Eligible       
+  E0456164                                      Ineligible                                         Ineligible     
+  E0456256                                 562  Eligible                                           Eligible       
+  E0656224                                      Eligible                                           Eligible       
+  E0856239                                      Eligible                                           Eligible       
+  E0456774                                 567  Eligible         Exclusion                         Ineligible     
+  E0156848                                 568  Eligible                                           Eligible       
+  E0656884                                      Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0356966         country07               569  Eligible                                           Eligible       
+  E0957215                                 572  Eligible                                           Eligible       
+  E0457366                                 573  Eligible                                           Eligible       
+  E1057360                                      Eligible                                           Eligible       
+  E0757496                                 574  Eligible                                           Eligible       
+  E0857625                                 576  Eligible                                           Eligible       
+  E0757671                                      Eligible                          Exclusion        Ineligible     
+  E0757708                                 577  Eligible                                           Eligible       
+  E1057765                                      Eligible                                           Eligible       
+  E0457752                                      Eligible         Exclusion                         Ineligible     
+  E0557866                                 578  Eligible                                           Eligible       
+  E1057926                                 579  Eligible                                           Eligible       
+  E1057963                                      Eligible                          Inclusion        Eligible       
+  E0358035                                 580  Eligible                                           Eligible       
+  E0458203                                 582  Eligible                                           Eligible       
+  E0158321                                 583  Eligible                                           Eligible       
+  E0158418                                 584  Eligible                                           Eligible       
+  E0758416                                      Eligible                                           Eligible       
+  E0358576                                 585  Eligible                                           Eligible       
+  E0658506                                      Eligible                                           Eligible       
+  E0358694                                 586  Eligible                                           Eligible       
+  E0458722                                 587  Eligible                                           Eligible       
+  E0658733                                      Eligible                                           Eligible       
+  E0758726                                      Eligible                                           Eligible       
+  E0758815                                 588  Eligible                                           Eligible       
+  E0459031                                 590  Eligible                                           Eligible       
+  E0259243                                 592  Eligible                                           Eligible       
+  E0759301                                 593  Eligible                                           Eligible       
+  E0759339                                      Eligible                                           Eligible       
+  E0959305                                      Eligible         Exclusion                         Ineligible     
+  E0159432                                 594  Eligible                                           Eligible       
+  E0659467                                      Eligible                          Inclusion        Eligible       
+  E0759410                                      Eligible                                           Eligible       
+  E0759433                                      Eligible                                           Eligible       
+  E0159558                                 595  Eligible         Inclusion                         Eligible       
+  E0459558                                      Eligible                          Inclusion        Eligible       
+  E0659544                                      Eligible                                           Eligible       
+                                                                                                                  
+  E0150161         country08               501  Eligible                                           Eligible       
+  E0850260                                 502  Eligible                                           Eligible       
+  E1050224                                      Eligible                                           Eligible       
+  E0150607                                 506  Eligible                                           Eligible       
+  E0250922                                 509  Eligible                                           Eligible       
+  E0750912                                      Eligible                                           Eligible       
+  E0750995                                      Eligible                                           Eligible       
+  E0850998                                      Eligible                          Exclusion        Ineligible     
+  E0351034                                 510  Eligible         Inclusion                         Eligible       
+  E0851043                                      Eligible                                           Eligible       
+  E0951054                                      Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0451193         country08               511  Eligible                                           Eligible       
+  E0651191                                      Eligible                                           Eligible       
+  E0851137                                      Eligible         Exclusion                         Ineligible     
+  E0451358                                 513  Eligible                          Exclusion        Ineligible     
+  E0651437                                 514  Eligible                                           Eligible       
+  E0151589                                 515  Ineligible                                         Ineligible     
+  E0351620                                 516  Eligible                                           Eligible       
+  E0351665                                      Eligible                                           Eligible       
+  E0151810                                 518  Ineligible                                         Ineligible     
+  E1052027                                 520  Eligible                                           Eligible       
+  E0452216                                 522  Eligible                                           Eligible       
+  E0852239                                      Eligible                                           Eligible       
+  E1052216                                      Eligible                                           Eligible       
+  E0552738                                 527  Eligible                                           Eligible       
+  E0852753                                      Eligible                                           Eligible       
+  E0652978                                 529  Eligible         Exclusion                         Ineligible     
+  E0653144                                 531  Eligible                                           Eligible       
+  E0853152                                      Eligible                                           Eligible       
+  E1053244                                 532  Ineligible                                         Ineligible     
+  E0553363                                 533  Eligible                                           Eligible       
+  E0853597                                 535  Eligible                                           Eligible       
+  E0853599                                      Eligible                                           Eligible       
+  E1053647                                 536  Eligible                                           Eligible       
+  E0653716                                 537  Eligible                                           Eligible       
+  E0853721                                      Eligible         Inclusion                         Eligible       
+  E0254010                                 540  Eligible                                           Eligible       
+  E0354267                                 542  Eligible                                           Eligible       
+  E0754444                                 544  Eligible                                           Eligible       
+  E0854403                                      Eligible                          Inclusion        Eligible       
+  E0854426                                      Eligible                                           Eligible       
+  E0854470                                      Eligible         Exclusion                         Ineligible     
+  E0554613                                 546  Eligible                                           Eligible       
+  E0654679                                      Eligible                                           Eligible       
+  E0154779                                 547  Eligible                                           Eligible       
+  E0554826                                 548  Eligible                          Inclusion        Eligible       
+  E0655049                                 550  Eligible                                           Eligible       
+  E0655161                                 551  Eligible                                           Eligible       
+  E0855156                                      Eligible                                           Eligible       
+  E0355236                                 552  Eligible                                           Eligible       
+  E0855207                                      Ineligible                                         Ineligible     
+  E0455422                                 554  Eligible                                           Eligible       
+  E0955500                                 555  Eligible                                           Eligible       
+  E0455656                                 556  Eligible                                           Eligible       
+  E0855686                                      Eligible                                           Eligible       
+  E0455716                                 557  Eligible                                           Eligible       
+  E1055975                                 559  Eligible                                           Eligible       
+  E0856057                                 560  Eligible                                           Eligible       
+  E0256038                                      Ineligible                                         Ineligible     
+  E0456133                                 561  Ineligible                                         Ineligible     
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0556209         country08               562  Eligible                                           Eligible       
+  E0756289                                      Eligible         Exclusion        Exclusion        Ineligible     
+  E0856208                                      Ineligible                                         Ineligible     
+  E0556378                                 563  Eligible                                           Eligible       
+  E0956402                                 564  Eligible                                           Eligible       
+  E0556504                                 565  Eligible                                           Eligible       
+  E1056577                                      Eligible                                           Eligible       
+  E0856699                                 566  Eligible                          Exclusion        Ineligible     
+  E0856796                                 567  Eligible                                           Eligible       
+  E0756822                                 568  Eligible                                           Eligible       
+  E0156935                                 569  Eligible                                           Eligible       
+  E0957094                                 570  Eligible                                           Eligible       
+  E0857163                                 571  Eligible                                           Eligible       
+  E0457257                                 572  Eligible                                           Eligible       
+  E0657295                                      Eligible                                           Eligible       
+  E0257350                                 573  Eligible                                           Eligible       
+  E0857466                                 574  Eligible                                           Eligible       
+  E0857475                                      Ineligible                                         Ineligible     
+  E0957472                                      Eligible                          Exclusion        Ineligible     
+  E0157529                                 575  Eligible                                           Eligible       
+  E0857507                                      Ineligible                                         Ineligible     
+  E0857599                                                                                         Ineligible     
+  E0457610                                 576  Eligible                                           Eligible       
+  E0957639                                      Eligible                                           Eligible       
+  E1057798                                 577  Eligible                                           Eligible       
+  E0458082                                 580  Eligible                                           Eligible       
+  E0958033                                      Eligible                                           Eligible       
+  E0158166                                 581  Eligible                                           Eligible       
+  E0858360                                 583  Eligible                                           Eligible       
+  E0658383                                      Eligible                          Exclusion        Ineligible     
+  E1058469                                 584                                                     Ineligible     
+  E0558657                                 586  Eligible                                           Eligible       
+  E0858705                                 587                                                     Ineligible     
+  E0658899                                 588  Eligible                          Exclusion        Ineligible     
+  E0258960                                 589  Eligible                                           Eligible       
+  E0858996                                      Eligible                                           Eligible       
+  E0459080                                 590  Eligible                                           Eligible       
+  E0659124                                 591  Eligible                                           Eligible       
+  E1059204                                 592                                                     Ineligible     
+  E0359344                                 593  Eligible                                           Eligible       
+  E0259811                                 598  Eligible         Inclusion                         Eligible       
+                                                                                                                  
+  E0150056         country09               500  Eligible                                           Eligible       
+  E0750161                                 501  Eligible                                           Eligible       
+  E0950333                                 503  Eligible                                           Eligible       
+  E0650306                                      Ineligible                                         Ineligible     
+  E0950804                                 508  Eligible                                           Eligible       
+  E0850927                                 509  Eligible                                           Eligible       
+  E0251001                                 510  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0751025         country09               510  Eligible         Exclusion                         Ineligible     
+  E0651391                                 513  Eligible                                           Eligible       
+  E0651382                                      Ineligible                                         Ineligible     
+  E0151401                                 514  Eligible                                           Eligible       
+  E0251506                                 515  Eligible                                           Eligible       
+  E0851576                                      Eligible                                           Eligible       
+  E0251883                                 518  Eligible                                           Eligible       
+  E0251894                                      Eligible                                           Eligible       
+  E0651966                                 519  Eligible                                           Eligible       
+  E0951956                                      Eligible                                           Eligible       
+  E0352088                                 520  Eligible                                           Eligible       
+  E0652516                                 525  Eligible                                           Eligible       
+  E0252569                                      Eligible                          Exclusion        Ineligible     
+  E1052630                                 526  Eligible                          Exclusion        Ineligible     
+  E0452776                                 527  Eligible                                           Eligible       
+  E0252722                                      Ineligible                                         Ineligible     
+  E0253061                                 530  Eligible                                           Eligible       
+  E0253335                                 533  Eligible                                           Eligible       
+  E0753347                                      Eligible                                           Eligible       
+  E0953304                                      Eligible                                           Eligible       
+  E0953577                                 535  Eligible                                           Eligible       
+  E0853701                                 537  Eligible                                           Eligible       
+  E0653910                                 539                                                     Ineligible     
+  E0954180                                 541  Eligible                                           Eligible       
+  E0354250                                 542  Eligible                                           Eligible       
+  E0754250                                      Eligible                                           Eligible       
+  E0154556                                 545  Eligible                                           Eligible       
+  E1054676                                 546  Ineligible                                         Ineligible     
+  E0854745                                 547  Eligible                                           Eligible       
+  E0454982                                 549  Eligible                                           Eligible       
+  E0855059                                 550  Eligible                                           Eligible       
+  E0455286                                 552  Eligible                                           Eligible       
+  E0555220                                      Eligible                                           Eligible       
+  E0255459                                 554  Eligible                                           Eligible       
+  E0655524                                 555  Eligible                                           Eligible       
+  E0955561                                      Eligible                                           Eligible       
+  E1055574                                      Eligible                                           Eligible       
+  E0555592                                                                                         Ineligible     
+  E0555706                                 557  Eligible                                           Eligible       
+  E0455874                                 558  Eligible         Inclusion                         Eligible       
+  E0955841                                      Eligible                                           Eligible       
+  E0756089                                 560  Eligible                                           Eligible       
+  E0656368                                 563  Eligible                                           Eligible       
+  E0556306                                      Ineligible                                         Ineligible     
+  E0256449                                 564  Eligible                                           Eligible       
+  E0656525                                 565  Eligible                                           Eligible       
+  E1056666                                 566  Ineligible                                         Ineligible     
+  E0356735                                 567  Eligible                          Exclusion        Ineligible     
+  E0756826                                 568  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E0956899         country09               568  Eligible                                           Eligible       
+  E0456927                                 569  Eligible                                           Eligible       
+  E0856920                                      Eligible                                           Eligible       
+  E0357051                                 570  Eligible                                           Eligible       
+  E0457088                                      Eligible                          Exclusion        Ineligible     
+  E0657110                                 571  Eligible                          Inclusion        Eligible       
+  E0957107                                      Eligible                                           Eligible       
+  E0957156                                      Ineligible                                         Ineligible     
+  E0857232                                 572  Eligible                                           Eligible       
+  E0957234                                      Eligible                                           Eligible       
+  E0857473                                 574  Eligible                                           Eligible       
+  E0757673                                 576  Ineligible       Exclusion        Exclusion        Ineligible     
+  E0257756                                 577  Eligible                                           Eligible       
+  E0157838                                 578  Eligible                                           Eligible       
+  E0158033                                 580  Eligible                                           Eligible       
+  E0258192                                 581  Eligible                                           Eligible       
+  E0358199                                      Eligible                                           Eligible       
+  E0558185                                      Eligible                                           Eligible       
+  E0858303                                 583  Eligible                                           Eligible       
+  E0958548                                 585  Eligible                                           Eligible       
+  E0258698                                 586  Eligible                          Exclusion        Ineligible     
+  E0258706                                 587  Eligible         Inclusion                         Eligible       
+  E0358814                                 588  Eligible                                           Eligible       
+  E0958810                                      Eligible                                           Eligible       
+  E1059056                                 590  Eligible                                           Eligible       
+  E0859108                                 591  Eligible                                           Eligible       
+  E0559246                                 592  Eligible                          Exclusion        Ineligible     
+  E1059337                                 593  Eligible                                           Eligible       
+  E1059456                                 594  Eligible                                           Eligible       
+  E0959598                                 595  Eligible                                           Eligible       
+  E1059579                                      Eligible                                           Eligible       
+                                                                                                                  
+  E0450146         country10               501  Eligible                                           Eligible       
+  E0250253                                 502  Eligible                                           Eligible       
+  E0650288                                      Eligible                                           Eligible       
+  E1050394                                 503  Eligible                          Exclusion        Ineligible     
+  E0450411                                 504  Eligible                                           Eligible       
+  E0550481                                      Eligible                                           Eligible       
+  E0750447                                      Eligible                                           Eligible       
+  E0450661                                 506  Eligible                                           Eligible       
+  E0550635                                      Eligible                                           Eligible       
+  E0350715                                 507  Eligible                                           Eligible       
+  E1050843                                 508  Eligible                                           Eligible       
+  E0950913                                 509  Ineligible                        Inclusion        Ineligible     
+  E1051242                                 512  Eligible                                           Eligible       
+  E1051271                                      Eligible                                           Eligible       
+  E1051276                                      Eligible                                           Eligible       
+  E0751432                                 514  Ineligible                                         Ineligible     
+  E0151728                                 517  Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E1051758         country10               517  Eligible                                           Eligible       
+  E0951850                                 518  Eligible                          Exclusion        Ineligible     
+  E0952048                                 520  Eligible                                           Eligible       
+  E1052068                                      Ineligible                                         Ineligible     
+  E0452184                                 521  Eligible                                           Eligible       
+  E1052184                                      Eligible                                           Eligible       
+  E0752202                                 522  Eligible                                           Eligible       
+  E0752260                                      Eligible                          Inclusion        Eligible       
+  E0152366                                 523  Ineligible                                         Ineligible     
+  E0252311                                      Ineligible                                         Ineligible     
+  E1052304                                      Ineligible                                         Ineligible     
+  E0452469                                 524  Ineligible                                         Ineligible     
+  E0352574                                 525  Eligible                                           Eligible       
+  E1052535                                                                                         Ineligible     
+  E0652645                                 526  Ineligible                                         Ineligible     
+  E0952742                                 527  Eligible                                           Eligible       
+  E0352918                                 529  Ineligible                                         Ineligible     
+  E0753024                                 530  Eligible                                           Eligible       
+  E0153066                                      Eligible                          Exclusion        Ineligible     
+  E0553206                                 532  Eligible                                           Eligible       
+  E0653269                                      Eligible                                           Eligible       
+  E0553549                                 535  Eligible                                           Eligible       
+  E0553675                                 536  Eligible                                           Eligible       
+  E0453823                                 538  Eligible                                           Eligible       
+  E1053886                                      Eligible                                           Eligible       
+  E0153948                                 539  Eligible                                           Eligible       
+  E1053994                                      Eligible                                           Eligible       
+  E0554098                                 540  Eligible                                           Eligible       
+  E1054072                                      Eligible                                           Eligible       
+  E0754004                                      Ineligible                                         Ineligible     
+  E0654130                                 541  Eligible                                           Eligible       
+  E0854277                                 542  Eligible                                           Eligible       
+  E0554398                                 543  Eligible                                           Eligible       
+  E0654301                                      Eligible                                           Eligible       
+  E1054346                                      Eligible                                           Eligible       
+  E0854443                                 544  Eligible                                           Eligible       
+  E0254522                                 545  Eligible                                           Eligible       
+  E0954509                                      Eligible                                           Eligible       
+  E1054593                                      Eligible                                           Eligible       
+  E0954608                                 546  Eligible                                           Eligible       
+  E0854830                                 548  Eligible                                           Eligible       
+  E1055138                                 551  Eligible                                           Eligible       
+  E0255338                                 553  Eligible                                           Eligible       
+  E0355378                                      Ineligible                                         Ineligible     
+  E0455549                                 555  Eligible                                           Eligible       
+  E0555572                                      Eligible                          Exclusion        Ineligible     
+  E0555934                                 559  Eligible                                           Eligible       
+  E0256099                                 560  Eligible                          Inclusion        Eligible       
+  E1056037                                      Eligible                                           Eligible       
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        
+         NR0000-000                                                                           sas_listing01             
+                                                                                                                        
+                                                                                                                        
+                                       Eligibility information - listing                                                
+                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------------
+  subject_id       country                site  pi_assessment    pi_crit          cm_assessment    Eligibility    
+  ----------------------------------------------------------------------------------------------------------------
+                                                                                                                  
+  E1056074         country10               560  Eligible                                           Eligible       
+  E1056468                                 564  Eligible                                           Eligible       
+  E1056432                                      Eligible                          Exclusion        Ineligible     
+  E0556588                                 565  Eligible                                           Eligible       
+  E0356643                                 566  Eligible         Inclusion                         Eligible       
+  E0456696                                      Eligible                                           Eligible       
+  E1056977                                 569  Eligible                                           Eligible       
+  E0857362                                 573  Ineligible                                         Ineligible     
+  E0857790                                 577  Eligible                                           Eligible       
+  E0257719                                      Eligible                          Exclusion        Ineligible     
+  E0457915                                 579  Eligible                                           Eligible       
+  E0757965                                      Eligible                                           Eligible       
+  E1057920                                      Eligible                                           Eligible       
+  E0258299                                 582  Eligible                                           Eligible       
+  E0758268                                      Eligible                                           Eligible       
+  E0558391                                 583  Eligible         Exclusion                         Ineligible     
+  E0258479                                 584  Eligible         Exclusion                         Ineligible     
+  E0658873                                 588  Eligible                                           Eligible       
+  E0858848                                      Ineligible                                         Ineligible     
+  E0659038                                 590  Eligible                                           Eligible       
+  E0759265                                 592  Eligible                                           Eligible       
+  E1059333                                 593  Eligible                                           Eligible       
+  E0559370                                      Ineligible                                         Ineligible     
+  E0759464                                 594  Eligible                                           Eligible       
+  E0559513                                 595  Eligible                                           Eligible       
+  E0359677                                 596  Eligible                                           Eligible       
+  E0559606                                      Eligible                                           Eligible       
+  E1059896                                 598  Eligible                                           Eligible       
+  E0859804                                      Eligible         Exclusion                         Ineligible     
+                                                                                                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+                                                                                                                        

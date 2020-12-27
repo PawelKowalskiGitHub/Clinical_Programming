@@ -1,0 +1,655 @@
+NOTE: PROCEDURE PRINTTO zajęła (całkowity czas przetwarzania):
+      real time           0.06 seconds
+      cpu time            0.04 seconds
+      
+
+85         
+86         PROC REPORT DATA=Analysis.dataset headskip headline split='*';
+87         	column ('--' subject country site pi_assessment pi_crit cm_assessment Eligibility);
+88         	define country / width=10 order;
+89         	define site / width=15 order;
+90         	define subject / 'subject_id' width=15;
+91         	define pi_assessment / width=15;
+92         	define pi_crit / width=15;
+93         	define cm_assessment / width=15;
+94         	define Eligibility / width=15;
+95         	break after country / skip;
+96         	compute before _page_;
+97         	line @10 'NR0000-000'  @95 'sas_listing01';
+98         	line '';
+99         	line '';
+100        	line @40 'Eligibility information - listing';
+101        	line '';
+102        	endcomp;
+103        	compute after _page_;
+104        	line @1 120*'-';
+105        	line '';
+106        	endcomp;
+107        RUN;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: The PROCEDURE REPORT printed pages 1-21.
+NOTE: PROCEDURE REPORT zajęła (całkowity czas przetwarzania):
+      real time           2.62 seconds
+      cpu time            2.58 seconds
+      
+
+108        
+109        
+110        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+122        
+System SAS
+
+
+System SAS
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         /* CREATING A TABLE FREQUENCY OF SUBJECTS IN EACH SITE */
+74         
+75         /* Creating one dataframe with frequency of all and ineligible subjects */
+76         /* MACRO for find frequency and rename a COUNT column */
+77         PROC SORT DATA=Analysis.dataset; BY country; RUN;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: The data set ANALYSIS.DATASET has 1000 observations and 7 variables.
+NOTE: PROCEDURE SORT zajęła (całkowity czas przetwarzania):
+      real time           0.05 seconds
+      cpu time            0.02 seconds
+      
+
+78         %MACRO SUB_FREQ(output, new_var_name, condition1 = "Eligible", condition2 = "Ineligible");
+79         	PROC FREQ DATA=Analysis.dataset NOPRINT;
+80         	TABLE country*site / Out=&output NOPERCENT NOCUM;
+81         	WHERE Eligibility=&condition1 or Eligibility=&condition2;
+82         	RUN;
+83         	DATA &output;
+84         	RENAME COUNT=&new_var_name;
+85         	SET &output (drop=Percent);
+86         	RUN;
+87         %MEND SUB_FREQ;
+88         
+89         /* Frequency of all subjects in each country and site */
+90         %SUB_FREQ(freq_all_subjects, Numbers_of_all_subjects);
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+      WHERE Eligibility in ('Eligible', 'Ineligible');
+NOTE: The data set WORK.FREQ_ALL_SUBJECTS has 620 observations and 4 variables.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.03 seconds
+      cpu time            0.02 seconds
+      
+
+
+NOTE: There were 620 observations read from the data set WORK.FREQ_ALL_SUBJECTS.
+NOTE: The data set WORK.FREQ_ALL_SUBJECTS has 620 observations and 3 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+91         /* Frequency of ineligible subjects in each country and site */
+92         %SUB_FREQ(freq_inelig_subjects, Numbers_of_ineligible_subjects, condition1 = "Ineligible");
+
+NOTE: There were 205 observations read from the data set ANALYSIS.DATASET.
+      WHERE Eligibility='Ineligible';
+NOTE: The data set WORK.FREQ_INELIG_SUBJECTS has 186 observations and 4 variables.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.01 seconds
+      cpu time            0.02 seconds
+      
+
+
+NOTE: There were 186 observations read from the data set WORK.FREQ_INELIG_SUBJECTS.
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:30:37
+
+NOTE: The data set WORK.FREQ_INELIG_SUBJECTS has 186 observations and 3 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+93         
+94         
+95         /* Merging dataframes with all and ineligible subjects in the one df */
+96         PROC SORT DATA=freq_all_subjects; BY site; RUN;
+
+NOTE: There were 620 observations read from the data set WORK.FREQ_ALL_SUBJECTS.
+NOTE: The data set WORK.FREQ_ALL_SUBJECTS has 620 observations and 3 variables.
+NOTE: PROCEDURE SORT zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+97         PROC SORT DATA=freq_inelig_subjects; BY site; RUN;
+
+NOTE: There were 186 observations read from the data set WORK.FREQ_INELIG_SUBJECTS.
+NOTE: The data set WORK.FREQ_INELIG_SUBJECTS has 186 observations and 3 variables.
+NOTE: PROCEDURE SORT zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+98         DATA freq_summary;
+99         	MERGE freq_all_subjects(in=T1) freq_inelig_subjects(in=T1);
+100        	IF T1;
+101        	BY site;
+102        RUN;
+
+NOTE: MERGE statement has more than one data set with repeats of BY values.
+NOTE: There were 620 observations read from the data set WORK.FREQ_ALL_SUBJECTS.
+NOTE: There were 186 observations read from the data set WORK.FREQ_INELIG_SUBJECTS.
+NOTE: The data set WORK.FREQ_SUMMARY has 620 observations and 4 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+103        
+104        PROC SORT DATA=freq_summary; BY country; RUN;
+
+NOTE: There were 620 observations read from the data set WORK.FREQ_SUMMARY.
+NOTE: The data set WORK.FREQ_SUMMARY has 620 observations and 4 variables.
+NOTE: PROCEDURE SORT zajęła (całkowity czas przetwarzania):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+105        PROC PRINT DATA=freq_summary;
+106        RUN;
+
+NOTE: There were 620 observations read from the data set WORK.FREQ_SUMMARY.
+NOTE: PROCEDURE PRINT zajęła (całkowity czas przetwarzania):
+      real time           1.49 seconds
+3 System SAS                                                                         niedziela, 27 grudnia 2020 12:30:39
+
+      cpu time            1.49 seconds
+      
+
+107        
+108        /* Sprawdzic czy nei lepiej zrobic z eligibili zamiast all, najpierw zoabczyc czy sie zsumuje tak jak
+108      ! pokazywane było na poczatku z podwojna opcja output */
+109        
+110        
+111        OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+123        
+4 System SAS                                                                         niedziela, 27 grudnia 2020 12:37:38
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:37:38
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=sashelp.class;
+76          table sex;
+77         run;
+
+NOTE: The data set WORK.ONE has 2 observations and 3 variables.
+NOTE: There were 19 observations read from the data set SASHELP.CLASS.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.09 seconds
+      cpu time            0.07 seconds
+      
+
+78         ** Add parentheses and concatenate;
+79         data two;
+80          set one;
+81          cntpct = strip(put(frequency,best.))||' ('||strip(put(percent,8.1))||')';
+82         run;
+
+NOTE: There were 2 observations read from the data set WORK.ONE.
+NOTE: The data set WORK.TWO has 2 observations and 4 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.02 seconds
+      
+
+83         ** Optional transposition;
+84         data three (keep=male female);
+85          merge two (where=(sex='M') rename=(cntpct=male ))
+86          two (where=(sex='F') rename=(cntpct=female));
+87         run;
+
+NOTE: There were 1 observations read from the data set WORK.TWO.
+      WHERE sex='M';
+NOTE: There were 1 observations read from the data set WORK.TWO.
+      WHERE sex='F';
+NOTE: The data set WORK.THREE has 1 observations and 2 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+88         ** Output;
+89         ods rtf file="./datastep.rtf";
+ERROR: Insufficient authorization to access /opt/sasinside/SASConfig/Lev1/SASApp/datastep.rtf.
+ERROR: Fatal ODS error has occurred. Unable to continue processing this output destination.
+WARNING: No body file. RTF output will not be created.
+90         proc report data=three nowd split='|';
+91          columns female male;
+92          define female / 'Female|n (%)' style=[cellwidth=200 just=C];
+93          define male / 'Male|n (%)' style=[cellwidth=200 just=C];
+94         run;
+
+NOTE: There were 1 observations read from the data set WORK.THREE.
+NOTE: PROCEDURE REPORT zajęła (całkowity czas przetwarzania):
+      real time           0.02 seconds
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:37:39
+
+      cpu time            0.03 seconds
+      
+
+95         ods rtf close;
+96         
+97         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+109        
+3 System SAS                                                                         niedziela, 27 grudnia 2020 12:38:59
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:38:59
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=Analysis.dataset;
+76          table country site;
+77         run;
+
+WARNING: The variable sex in the DROP, KEEP, or RENAME list has never been referenced.
+WARNING: The variable sex in the DROP, KEEP, or RENAME list has never been referenced.
+NOTE: The data set WORK.ONE has 109 observations and 2 variables.
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.34 seconds
+      cpu time            0.33 seconds
+      
+
+78         
+79         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+91         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:39:12
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:39:12
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=Analysis.dataset;
+76          table country*site;
+77         run;
+
+WARNING: Output 'OneWayFreqs' was not created.  Make sure that the output object name, label, or path is spelled 
+         correctly.  Also, verify that the appropriate procedure options are used to produce the requested output 
+         object.  For example, verify that the NOPRINT option is not used.
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           4.18 seconds
+      cpu time            4.15 seconds
+      
+
+78         
+79         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+91         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:40:36
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:40:36
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=Analysis.dataset;
+76          table country;
+77         run;
+
+WARNING: The variable sex in the DROP, KEEP, or RENAME list has never been referenced.
+NOTE: The data set WORK.ONE has 10 observations and 2 variables.
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.28 seconds
+      cpu time            0.25 seconds
+      
+
+78         
+79         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+91         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:40:57
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:40:57
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=Analysis.dataset;
+76          table country*Eligibility;
+77         run;
+
+WARNING: Output 'OneWayFreqs' was not created.  Make sure that the output object name, label, or path is spelled 
+         correctly.  Also, verify that the appropriate procedure options are used to produce the requested output 
+         object.  For example, verify that the NOPRINT option is not used.
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.24 seconds
+      cpu time            0.23 seconds
+      
+
+78         
+79         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+91         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:42:36
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:42:37
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table (country site)*Eligibility;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           1.37 seconds
+      cpu time            1.37 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:44:56
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:44:56
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility nocum ;
+ERROR: Variable NOCUM not found.
+75         run;
+
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:11
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:11
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility nocum;
+ERROR: Variable NOCUM not found.
+75         run;
+
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:21
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:21
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.18 seconds
+      cpu time            0.18 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:35
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:45:36
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility nocum;
+ERROR: Variable NOCUM not found.
+75         run;
+
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:48:08
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:48:08
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility / nocum;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.21 seconds
+      cpu time            0.21 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:48:48
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:48:48
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility / nocum nopercent;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.17 seconds
+      cpu time            0.17 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:49:28
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:49:28
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility / norow;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.17 seconds
+      cpu time            0.16 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:49:51
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:49:51
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+72         
+73         proc freq data=Analysis.dataset;
+74          table country*Eligibility / norow nocol;
+75         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.21 seconds
+      cpu time            0.21 seconds
+      
+
+76         
+77         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+89         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:50:21
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:50:21
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ods output OneWayFreqs=one (keep=sex frequency percent);
+75         proc freq data=Analysis.dataset;
+76          table country*Eligibility / norow nocol;
+77         run;
+
+WARNING: Output 'OneWayFreqs' was not created.  Make sure that the output object name, label, or path is spelled 
+         correctly.  Also, verify that the appropriate procedure options are used to produce the requested output 
+         object.  For example, verify that the NOPRINT option is not used.
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE FREQ zajęła (całkowity czas przetwarzania):
+      real time           0.15 seconds
+      cpu time            0.13 seconds
+      
+
+78         ** Add parentheses and concatenate;
+79         data two;
+80          set one;
+81          cntpct = strip(put(frequency,best.))||' ('||strip(put(percent,8.1))||')';
+82         run;
+
+NOTE: There were 10 observations read from the data set WORK.ONE.
+NOTE: The data set WORK.TWO has 10 observations and 3 variables.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+83         ** Optional transposition;
+84         data three (keep=male female);
+85          merge two (where=(sex='M') rename=(cntpct=male ))
+86          two (where=(sex='F') rename=(cntpct=female));
+ERROR: Zmiennej sex nie ma w pliku WORK.TWO.
+ERROR: Zmiennej sex nie ma w pliku WORK.TWO.
+87         run;
+
+WARNING: The variable male in the DROP, KEEP, or RENAME list has never been referenced.
+WARNING: The variable female in the DROP, KEEP, or RENAME list has never been referenced.
+NOTE: The SAS System stopped processing this step because of errors.
+WARNING: The data set WORK.THREE may be incomplete.  When this step was stopped there were 0 observations and 0 
+         variables.
+WARNING: Data set WORK.THREE was not replaced because this step was stopped.
+NOTE: Instrukcja DATA zajęła (całkowity czas przetwarzania):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+88         ** Output;
+89         ods rtf file="./datastep.rtf";
+ERROR: Insufficient authorization to access /opt/sasinside/SASConfig/Lev1/SASApp/datastep.rtf.
+ERROR: Fatal ODS error has occurred. Unable to continue processing this output destination.
+WARNING: No body file. RTF output will not be created.
+90         proc report data=three nowd split='|';
+91          columns female male;
+92          define female / 'Female|n (%)' style=[cellwidth=200 just=C];
+93          define male / 'Male|n (%)' style=[cellwidth=200 just=C];
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:50:21
+
+94         run;
+
+NOTE: There were 1 observations read from the data set WORK.THREE.
+NOTE: PROCEDURE REPORT zajęła (całkowity czas przetwarzania):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+95         ods rtf close;
+96         
+97         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+109        
+3 System SAS                                                                         niedziela, 27 grudnia 2020 12:51:57
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:51:57
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         proc report data=Analysis.dataset nowd split='|';
+75          columns female male;
+76          define female / 'Female|n (%)' style=[cellwidth=200 just=C];
+77          define male / 'Male|n (%)' style=[cellwidth=200 just=C];
+78         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE REPORT zajęła (całkowity czas przetwarzania):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+      
+
+79         ods rtf close;
+80         
+81         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+93         
+2 System SAS                                                                         niedziela, 27 grudnia 2020 12:52:45
+
+
+1 System SAS                                                                         niedziela, 27 grudnia 2020 12:52:45
+
+1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+NOTE: ODS statements in the SAS Studio environment may disable some output features.
+73         
+74         ** Output;
+75         ods rtf file="./datastep.rtf";
+ERROR: Insufficient authorization to access /opt/sasinside/SASConfig/Lev1/SASApp/datastep.rtf.
+ERROR: Fatal ODS error has occurred. Unable to continue processing this output destination.
+WARNING: No body file. RTF output will not be created.
+76         proc report data=Analysis.dataset nowd split='|';
+77          columns country site eligibility;
+78          define country / 'country|n (%)' style=[cellwidth=200 just=C];
+79          define site / 'site|n (%)' style=[cellwidth=200 just=C];
+80         run;
+
+NOTE: There were 1000 observations read from the data set ANALYSIS.DATASET.
+NOTE: PROCEDURE REPORT zajęła (całkowity czas przetwarzania):
+      real time           1.69 seconds
+      cpu time            1.68 seconds
+      
+
+81         ods rtf close;
+82         
+83         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
