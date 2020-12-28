@@ -1,6 +1,6 @@
 # Validation of the eligibility process
 
-This project consists of assessing the correctness of the subject's clinical trial eligibility for the randomization process. The Principal Investigator (PI) and Sponsor (CM) decide on eligibility for a clinical trial. Each patient has a unique id, is assigned to a given country and site, and his eligibility for randomization is assessed by the PI and/or CM.
+This project consists of assessing the correctness of the subject's clinical study eligibility for the randomization process. The Principal Investigator (PI) and Sponsor (CM) decide on eligibility for a clinical study. Each patient has a unique id, is assigned to a given country and site, and his eligibility for randomization is assessed by the PI and/or CM.
 
 Validation is that all subjects (who have with randomization date) have been randomized, but in some cases, they have an ineligible status assigned by PI or CM, so this is an error that needs to be caught.
 
