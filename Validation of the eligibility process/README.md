@@ -7,4 +7,4 @@ Validation is a randomization process correctness analysis. All subjects (who ha
 In the Generate_files_in_Python folder, there are two programs for creating a database and files containing information about subjects and their eligibility. The create_files.py program allows us to enter all data into the dataset and create separate CSV files. The random_database.py program allows us to generate the data randomly.
 
 In the Data_Analysis_in_SAS folder there are SAS programs with which the randomization process correctness analysis was performed.
-In the Data_Analysis_in R folder is analogical analysis in R. 
+In the Data_Analysis_in_R/Python folders is analogical analysis in R/Python. 
